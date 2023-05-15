@@ -8,3 +8,14 @@
 .landing-subtitle{
     color: #999999;
 }
+
+.landing-about-txt-div{
+    width: 60%;
+    margin-left: '10px';
+}
+
+@media only screen and (max-width: 764px) {
+    .landing-about-txt-div{
+        width: 100%;
+    }
+}
