@@ -1,40 +1,45 @@
-.AboutMe{
+.AboutMe {
     border-width: 2px;
     border-style: solid;
     border-color: #5d5d5d;
     height: 90vh;
     border-radius: 30px;
     padding: calc(10px + 3vmin);
-    
-  }
-  
-.about-me-header{
+}
+
+@media only screen and (max-width: 764px) {
+    .AboutMe {
+        height: auto;
+    }
+}
+
+.about-me-header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.profile-name{
+.profile-name {
     font-weight: 600;
     font-size: calc(10px + 3vmin);
 }
-  
-.profile-title{
-    align-self:flex-end;
+
+.profile-title {
+    align-self: flex-end;
     font-size: calc(10px + 1vmin);
 }
-  
-.mugshot{
+
+.mugshot {
     width: 100%;
     border-radius: 30px;
     margin: 10% 0 10% 0;
 }
 
-.email-loc{
+.email-loc {
     font-size: calc(10px + .5vmin);
 }
 
-.icon-boarder{
+.icon-boarder {
     padding: 12px;
     border-width: 2px;
     border-color: #5d5d5d;
@@ -44,14 +49,15 @@
     border-radius: 50px;
 }
 
-    .icon-boarder:hover{
-        border-color: #2be88d;
-        color: #2be88d;
-    }
+.icon-boarder:hover {
+    border-color: #2be88d;
+    color: #2be88d;
+}
 
-a{
+a {
     color: white;
 }
-    a:hover{
-        color: white;
-    }
+
+a:hover {
+    color: white;
+}
