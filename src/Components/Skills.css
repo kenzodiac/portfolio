@@ -1,0 +1,5 @@
+.skills-title{
+    font-size: calc(10px + 5vmin);
+    letter-spacing: calc(1px + .5vmin);
+    font-weight: 500;
+}

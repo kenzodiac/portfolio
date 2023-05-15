@@ -1,0 +1,39 @@
+.title{
+    font-size: calc(10px + 5vmin);
+    letter-spacing: calc(1px + .5vmin);
+    font-weight: 500;
+}
+
+.flexwrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.proj-card{
+    padding: 10px;
+    border-width: 2px;
+    border-color: #5d5d5d;
+    border-style: solid;
+    width: 30%;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+    .proj-card:hover{
+        border-color: #2be88d;
+    }
+
+.card-title{
+    font-size: calc(10px + 1vmin);
+    text-align: center;
+    align-self: center;
+    font-weight: 800;
+    color: #2be88d;
+}
+.card-text{
+    font-size: calc(10px + .5vmin);
+}

@@ -1,15 +1,26 @@
-import React from 'react'
+import React from 'react';
+import './Skills.css';
 
 export default function Skills() {
   return (
-    <div>
-        My Skills:
+    <div style={{marginLeft: '10px', marginTop: '10vh'}}>
+        
+        <div className={"skills-title"} style={{textAlign: 'center'}}>
+            My <span style={{color: "#2be88d"}}>Skills</span>
+        </div>
 
-        Programming Langauges:
+        <div>
+            <span>Programming Langauges:</span>
+        </div>
 
-        Frameworks:
+        <div>
+            <span>Frameworks:</span>
+        </div>
+        
 
-        Productivity:
+        <div>
+            <span>Productivity:</span>
+        </div>
         
     </div>
   )

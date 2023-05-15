@@ -14,7 +14,7 @@ export default function Homepage() {
             <Col lg={4} md={5}>
                 <AboutMe/>
             </Col>
-            <Col lg={8} md={7}>
+            <Col lg={8} md={7} className='overflow-auto' style={{height: '90vh'}}>
                 <Landing/>
                 <Skills/>
                 <Projects/>

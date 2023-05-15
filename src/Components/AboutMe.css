@@ -16,7 +16,7 @@
 
 .profile-name{
     font-weight: 600;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 3vmin);
 }
   
 .profile-title{
@@ -45,7 +45,13 @@
 }
 
     .icon-boarder:hover{
-        border-color: aqua;
-        color: aqua;
+        border-color: #2be88d;
+        color: #2be88d;
     }
 
+a{
+    color: white;
+}
+    a:hover{
+        color: white;
+    }

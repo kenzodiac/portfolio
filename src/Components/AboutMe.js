@@ -8,19 +8,19 @@ import { FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa';
 
 export default function AboutMe() {
 
-    const [show, setShow] = useState(false);
+    // const [show, setShow] = useState(false);
 
-    function handleClose() {
-        setShow(false);
-    }
-    function handleShow() {
-        setShow(true);
-    }
+    // function handleClose() {
+    //     setShow(false);
+    // }
+    // function handleShow() {
+    //     setShow(true);
+    // }
 
     return (
         <div className={'AboutMe'}>
 
-            <Modal show={show} onHide={handleClose} size="lg">
+            {/* <Modal show={show} onHide={handleClose} size="lg">
                 <Modal.Header closeButton>
                     <Modal.Title>Resume PDF Viewer</Modal.Title>
                 </Modal.Header>
@@ -34,7 +34,7 @@ export default function AboutMe() {
                         Close
                     </Button>
                 </Modal.Footer>
-            </Modal>
+            </Modal> */}
 
             <Row>
                 <Col className="about-me-header">
@@ -48,18 +48,21 @@ export default function AboutMe() {
             </Row>
 
             <Row>
-                <Col><img src={mugshot} alt="Profile image" className='mugshot' /></Col>
+                <Col><img src={mugshot} alt="Profile image" className='mugshot' style={{ boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)' }}/></Col>
             </Row>
 
             <Row>
-                <Col className="d-flex text-center justify-content-center mb-4">
-                    <span className="email-loc">kennethfujimura@gmail.com<br />
-                        Based in California</span>
+                <Col className="d-flex text-center justify-content-center" style={{marginBottom: '5%'}}>
+                    <span className="email-loc">
+                        kennethfujimura @ gmail .com<br/>
+                        (209) 565 - 0015<br/>
+                        Based in California
+                    </span>
                 </Col>
             </Row>
 
             <Row>
-                <Col className="d-flex justify-content-center mb-5">
+                <Col className="d-flex justify-content-center" style={{marginBottom: '5%'}}>
                     <span style={{ fontSize: "10px", color: "#5d5d5d" }}>©2023 Kenneth Fujimura All Rights Reserved</span>
                 </Col>
             </Row>
@@ -74,7 +77,7 @@ export default function AboutMe() {
                         <div className="icon-boarder"><FaGithub size={30} /></div>
                     </a>
 
-                    <a href="#" onClick={handleShow} title="Resume" alt="Link to Resume">
+                    <a href="https://drive.google.com/file/d/1XEaj610ObaagF99Xk7Lyo0SGSCg321iv/view?usp=sharing" target="_blank" title="Resume" alt="Link to Resume">
                         <div className="icon-boarder"><FaFilePdf size={30} /></div>
                     </a>
                 </Col>

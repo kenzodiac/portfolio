@@ -1,0 +1,10 @@
+.landing-title{
+    font-size: calc(10px + 6vmin);
+    font-weight: 500;
+    text-align-last: right;
+    margin-right: 6%;
+}
+
+.landing-subtitle{
+    color: #5d5d5d;
+}
