@@ -1,0 +1,51 @@
+.AboutMe{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5d5d5d;
+    height: 90vh;
+    border-radius: 30px;
+    padding: calc(10px + 3vmin);
+    
+  }
+  
+.about-me-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.profile-name{
+    font-weight: 600;
+    font-size: calc(10px + 2vmin);
+}
+  
+.profile-title{
+    align-self:flex-end;
+    font-size: calc(10px + 1vmin);
+}
+  
+.mugshot{
+    width: 100%;
+    border-radius: 30px;
+    margin: 10% 0 10% 0;
+}
+
+.email-loc{
+    font-size: calc(10px + .5vmin);
+}
+
+.icon-boarder{
+    padding: 10px;
+    border-width: 2px;
+    border-color: #5d5d5d;
+    border-style: solid;
+    width: auto;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+    .icon-boarder:hover{
+        border-color: aqua;
+        color: aqua;
+    }
+
