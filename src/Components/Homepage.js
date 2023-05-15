@@ -18,7 +18,7 @@ export default function Homepage() {
                 <Landing/>
                 <Skills/>
                 <Projects/>
-                <Footer/>
+                {/* <Footer/> */}
             </Col>
         </Row>
     </Container>

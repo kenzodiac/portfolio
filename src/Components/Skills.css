@@ -3,3 +3,9 @@
     letter-spacing: calc(1px + .5vmin);
     font-weight: 500;
 }
+
+.skills-section-title{
+    font-size: calc(10px + 2vmin);
+    letter-spacing: calc(1px + .3vmin);
+    color: #6ae4a9;
+}
