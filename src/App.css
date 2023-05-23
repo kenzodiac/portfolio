@@ -15,3 +15,14 @@
 .App-link {
   color: #61dafb;
 }
+
+.overflow-rules{
+  overflow: auto;
+  height: 90vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .overflow-rules{
+    height: auto;
+  }
+}

@@ -7,7 +7,7 @@
     padding: calc(10px + 3vmin);
 }
 
-@media only screen and (max-width: 764px) {
+@media only screen and (max-width: 767px) {
     .AboutMe {
         height: auto;
     }
