@@ -5,6 +5,7 @@ import { Document, Page } from 'react-pdf';
 import mugshot from '../Assets/Images/mugshot.png';
 import './AboutMe.css';
 import { FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa';
+import SkillIcon from './SkillIcon';
 
 export default function AboutMe() {
 

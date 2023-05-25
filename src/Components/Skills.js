@@ -3,55 +3,99 @@ import './Skills.css';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJs, FaUnity, FaGithub, FaGit, FaSlack, FaFigma } from 'react-icons/fa';
 import { TbBrandTailwind, TbBrandCSharp, TbSql } from 'react-icons/tb';
 import { SiTypescript, SiDotnet, SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiNotion, SiJirasoftware } from 'react-icons/si';
+import SkillIcon from './SkillIcon';
 
 export default function Skills() {
-  return (
-    <div style={{marginLeft: '10px', marginTop: '10vh'}}>
-        
-        <div className={"skills-title mb-5"} style={{textAlign: 'center'}}>
-            My <span style={{color: "#2be88d"}}>Skills</span>
-        </div>
 
-        <div>
-            <span className={"skills-section-title"}>Programming Langauges:</span>
-        </div>
+    const htmlIcon = <FaHtml5 size={50} />;
 
-        <div className={"d-flex justify-content-center flex-wrap mb-4"}>
-            <div className="icon-boarder" alt={"HTML5 icon"} title={"HTML5"}><FaHtml5 size={50} /></div>
-            <div className="icon-boarder" alt={"CSS icon"} title={"CSS"}><FaCss3Alt size={50} /></div>
-            <div className="icon-boarder" alt={"JS icon"} title={"JavaScript"}><FaJs size={50} /></div>
-            <div className="icon-boarder" alt={"C# icon"} title={"C#"}><TbBrandCSharp size={50} /></div>
-            <div className="icon-boarder" alt={"TS icon"} title={"TypeScript"}><SiTypescript size={50} /></div>
-            <div className="icon-boarder" alt={"SQL icon"} title={"SQL"}><TbSql size={50} /></div>
-        </div>
+    return (
+        <div style={{ marginLeft: '10px', marginTop: '10vh' }}>
 
-        <div>
-            <span className={"skills-section-title"}>Frameworks:</span>
-        </div>
-        
-        <div className={"d-flex justify-content-center flex-wrap mb-4"}>
-            <div className="icon-boarder" alt={"React icon"} title={"React"}><FaReact size={50} /></div>
-            <div className="icon-boarder" alt={"Bootstrap icon"} title={"Bootstrap"}><FaBootstrap size={50} /></div>
-            <div className="icon-boarder" alt={"Unity icon"} title={"Unity"}><FaUnity size={50} /></div>
-            <div className="icon-boarder" alt={"Tailwind CSS icon"} title={"Tailwind CSS"}><TbBrandTailwind size={50} /></div>
-            <div className="icon-boarder" alt={"Dotnet icon"} title={"Dotnet"}><SiDotnet size={50} /></div>
-        </div>
+            <div className={"skills-title mb-5"} style={{ textAlign: 'center' }}>
+                My <span style={{ color: "#2be88d" }}>Skills</span>
+            </div>
 
-        <div>
-            <span className={"skills-section-title"}>Productivity:</span>
+            <div>
+                <span className={"skills-section-title"}>Programming Langauges:</span>
+            </div>
+
+            <div className={"d-flex justify-content-center flex-wrap mb-4"}>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'HTML5 icon'} title={'HTML5'} icon={<FaHtml5 size={50}/>}/>
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'CSS icon'} title={'CSS'} icon={<FaCss3Alt size={50}/>}/>
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'JS icon'} title={'JavaScript'} icon={<FaJs size={50}/>}/>
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'C# icon'} title={'C#'} icon={<TbBrandCSharp size={50}/>}/>
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'TS icon'} title={'TypeScript'} icon={<SiTypescript size={50}/>}/>
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'SQL icon'} title={'SQL'} icon={<TbSql size={50}/>}/>
+                </div>
+            </div>
+
+            <div>
+                <span className={"skills-section-title"}>Frameworks:</span>
+            </div>
+
+            <div className={"d-flex justify-content-center flex-wrap mb-4"}>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'React icon'} title={'React'} icon={<FaReact size={50}/>} />
+                </div>                
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Bootstrap icon'} title={'Bootstrap'} icon={<FaBootstrap size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Unity icon'} title={'Unity'} icon={<FaUnity size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Tailwind CSS icon'} title={'Tailwind CSS'} icon={<TbBrandTailwind size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Dotnet icon'} title={'.NET'} icon={<SiDotnet size={50}/>} />
+                </div>
+            </div>
+
+            <div>
+                <span className={"skills-section-title"}>Productivity:</span>
+            </div>
+
+            <div className={"d-flex justify-content-center flex-wrap mb-4"}>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'GitHub icon'} title={'GitHub'} icon={<FaGithub size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Git icon'} title={'Git'} icon={<FaGit size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Slack icon'} title={'Slack'} icon={<FaSlack size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'VSCode icon'} title={'Visual Studio Code'} icon={<SiVisualstudiocode size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Postman icon'} title={'Postman'} icon={<SiPostman size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Azure icon'} title={'Azure'} icon={<SiMicrosoftazure size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Notion icon'} title={'Notion'} icon={<SiNotion size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Figma icon'} title={'Figma'} icon={<FaFigma size={50}/>} />
+                </div>
+                <div className={'skill-icon'}>
+                    <SkillIcon alt={'Jira icon'} title={'Jira'} icon={<SiJirasoftware size={50}/>} />
+                </div>
+            </div>
         </div>
-        
-        <div className={"d-flex justify-content-center flex-wrap mb-4"}>
-            <div className="icon-boarder" alt={"GitHub icon"} title={"GitHub"}><FaGithub size={50} /></div>
-            <div className="icon-boarder" alt={"Git icon"} title={"Git"}><FaGit size={50} /></div>
-            <div className="icon-boarder" alt={"Slack icon"} title={"Slack"}><FaSlack size={50} /></div>
-            <div className="icon-boarder" alt={"VSCode icon"} title={"Visual Studio Code"}><SiVisualstudiocode size={50} /></div>
-            <div className="icon-boarder" alt={"Postman icon"} title={"Postman"}><SiPostman size={50} /></div>
-            <div className="icon-boarder" alt={"Azure icon"} title={"Azure"}><SiMicrosoftazure size={50} /></div>
-            <div className="icon-boarder" alt={"Notion icon"} title={"Notion"}><SiNotion size={50} /></div>
-            <div className="icon-boarder" alt={"Figma icon"} title={"Figma"}><FaFigma size={50} /></div>
-            <div className="icon-boarder" alt={"Jira icon"} title={"Jira"}><SiJirasoftware size={50} /></div>
-        </div>
-    </div>
-  )
+    )
 }
