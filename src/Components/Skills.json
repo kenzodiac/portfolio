@@ -1,14 +1,133 @@
-[
-    {
-        "Name" : "HTML5",
-        "Icon" : "FaHtml5",
-        "Alt" : "HTML5 icon",
-        "Class" : "icon-boarder"
-    },
-    {
-        "Name" : "CSS",
-        "Icon" : "FaCss3Alt",
-        "Alt" : "CSS icon",
-        "Class" : "icon-boarder"
-    }
-]
+{
+    "Languages" : 
+    [
+        {
+            "Name" : "HTML5",
+            "Icon" : "FaHtml5",
+            "Alt" : "HTML5 icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "CSS",
+            "Icon" : "FaCss3Alt",
+            "Alt" : "CSS icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "JavaScript",
+            "Icon" : "FaJs",
+            "Alt" : "JS icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "C#",
+            "Icon" : "TbBrandCSharp",
+            "Alt" : "C# icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "TypeScript",
+            "Icon" : "SiTypescript",
+            "Alt" : "TS icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "SQL",
+            "Icon" : "TbSql",
+            "Alt" : "SQL icon",
+            "Class" : "icon-boarder"
+        }
+    ],
+
+    "Frameworks" : 
+    [
+        {
+            "Name" : "React",
+            "Icon" : "FaReact",
+            "Alt" : "React icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Bootstrap",
+            "Icon" : "FaBootstrap",
+            "Alt" : "Bootstrap icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Unity",
+            "Icon" : "FaUnity",
+            "Alt" : "Unity icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Tailwind CSS",
+            "Icon" : "TbBrandTailwind",
+            "Alt" : "Tailwind CSS icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : ".NET",
+            "Icon" : "SiDotnet",
+            "Alt" : "Dotnet icon",
+            "Class" : "icon-boarder"
+        }
+    ],
+
+    "Productivity" : 
+    [
+        {
+            "Name" : "GitHub",
+            "Icon" : "FaGithub",
+            "Alt" : "GitHub icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Git",
+            "Icon" : "FaGit",
+            "Alt" : "Git icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Slack",
+            "Icon" : "FaSlack",
+            "Alt" : "Slack icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Visual Studio Code",
+            "Icon" : "SiVisualstudiocode",
+            "Alt" : "VSCode icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Postman",
+            "Icon" : "SiPostman",
+            "Alt" : "Postman icon",
+            "Class" : "icon-boarder"
+        },        {
+            "Name" : "Azure",
+            "Icon" : "SiMicrosoftazure",
+            "Alt" : "Azure icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Notion",
+            "Icon" : "SiNotion",
+            "Alt" : "Notion icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Figma",
+            "Icon" : "SiFigma",
+            "Alt" : "Figma icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Jira",
+            "Icon" : "SiJirasoftware",
+            "Alt" : "Jira icon",
+            "Class" : "icon-boarder"
+        }
+    ]
+    
+}
