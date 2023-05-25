@@ -1,6 +1,5 @@
 {
-    "Languages" : 
-    [
+    "Languages" : [
         {
             "Name" : "HTML5",
             "Icon" : "FaHtml5",
@@ -39,8 +38,7 @@
         }
     ],
 
-    "Frameworks" : 
-    [
+    "Frameworks" : [
         {
             "Name" : "React",
             "Icon" : "FaReact",
@@ -73,8 +71,7 @@
         }
     ],
 
-    "Productivity" : 
-    [
+    "Productivity" : [
         {
             "Name" : "GitHub",
             "Icon" : "FaGithub",
@@ -118,7 +115,7 @@
         },
         {
             "Name" : "Figma",
-            "Icon" : "SiFigma",
+            "Icon" : "FaFigma",
             "Alt" : "Figma icon",
             "Class" : "icon-boarder"
         },
@@ -129,5 +126,4 @@
             "Class" : "icon-boarder"
         }
     ]
-    
 }

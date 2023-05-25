@@ -5,38 +5,11 @@ import { Document, Page } from 'react-pdf';
 import mugshot from '../Assets/Images/mugshot.png';
 import './AboutMe.css';
 import { FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa';
-import SkillIcon from './SkillIcon';
 
 export default function AboutMe() {
 
-    // const [show, setShow] = useState(false);
-
-    // function handleClose() {
-    //     setShow(false);
-    // }
-    // function handleShow() {
-    //     setShow(true);
-    // }
-
     return (
         <div className={'AboutMe'}>
-
-            {/* <Modal show={show} onHide={handleClose} size="lg">
-                <Modal.Header closeButton>
-                    <Modal.Title>Resume PDF Viewer</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <Document file="../Assets/resume.pdf">
-                        <Page pageNumber={1}/>
-                    </Document>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                </Modal.Footer>
-            </Modal> */}
-
             <Row>
                 <Col className="about-me-header">
                     <div className="d-flex align-items-center">
@@ -83,7 +56,6 @@ export default function AboutMe() {
                     </a>
                 </Col>
             </Row>
-
         </div>
     )
 }
