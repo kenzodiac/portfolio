@@ -68,6 +68,18 @@
             "Icon" : "SiDotnet",
             "Alt" : "Dotnet icon",
             "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Angular",
+            "Icon" : "FaAngular",
+            "Alt" : "Angular Icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Bulma CSS",
+            "Icon" : "SiBulma",
+            "Alt" : "Bulma CSS Icon",
+            "Class" : "icon-boarder"
         }
     ],
 
@@ -123,6 +135,18 @@
             "Name" : "Jira",
             "Icon" : "SiJirasoftware",
             "Alt" : "Jira icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Azure DevOps",
+            "Icon" : "SiAzuredevops",
+            "Alt" : "Azure DevOps Icon",
+            "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "Visual Studio",
+            "Icon" : "SiVisualstudio",
+            "Alt" : "Visual Studio Icon",
             "Class" : "icon-boarder"
         }
     ]

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Skills.css';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJs, FaUnity, FaGithub, FaGit, FaSlack, FaFigma } from 'react-icons/fa';
 import { TbBrandTailwind, TbBrandCSharp, TbSql } from 'react-icons/tb';
-import { SiTypescript, SiDotnet, SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiNotion, SiJirasoftware } from 'react-icons/si';
+import { SiTypescript, SiDotnet, SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiNotion, SiJirasoftware, SiAzuredevops } from 'react-icons/si';
 import iconJson from './Skills.json';
 
 export default function Skills() {
@@ -12,26 +12,30 @@ export default function Skills() {
 
     const getIconComponent = (iconName) => {
         switch (iconName) {
-            case 'FaHtml5': return <FaHtml5 size={50} />;
-            case 'FaCss3Alt': return <FaCss3Alt size={50} />;
+            case 'FaAngular': return <FaAngular size={50} />;
             case 'FaBootstrap': return <FaBootstrap size={50} />;
-            case 'FaReact': return <FaReact size={50} />;
-            case 'FaJs': return <FaJs size={50} />;
-            case 'FaUnity': return <FaUnity size={50} />;
-            case 'FaGithub': return <FaGithub size={50} />;
-            case 'FaGit': return <FaGit size={50} />;
-            case 'FaSlack': return <FaSlack size={50} />;
+            case 'FaCss3Alt': return <FaCss3Alt size={50} />;
             case 'FaFigma': return <FaFigma size={50} />;
-            case 'TbBrandTailwind': return <TbBrandTailwind size={50} />;
+            case 'FaGit': return <FaGit size={50} />;
+            case 'FaGithub': return <FaGithub size={50} />;
+            case 'FaHtml5': return <FaHtml5 size={50} />;
+            case 'FaJs': return <FaJs size={50} />;
+            case 'FaReact': return <FaReact size={50} />;
+            case 'FaSlack': return <FaSlack size={50} />;
+            case 'FaUnity': return <FaUnity size={50} />;
             case 'TbBrandCSharp': return <TbBrandCSharp size={50} />;
+            case 'TbBrandTailwind': return <TbBrandTailwind size={50} />;
             case 'TbSql': return <TbSql size={50} />;
-            case 'SiTypescript': return <SiTypescript size={50} />;
+            case 'SiAzuredevops': return <SiAzuredevops size={50} />;
+            case 'SiBulma': return <SiBulma size={50} />;
             case 'SiDotnet': return <SiDotnet size={50} />;
-            case 'SiVisualstudiocode': return <SiVisualstudiocode size={50} />;
-            case 'SiPostman': return <SiPostman size={50} />;
+            case 'SiJirasoftware': return <SiJirasoftware size={50} />;
             case 'SiMicrosoftazure': return <SiMicrosoftazure size={50} />;
             case 'SiNotion': return <SiNotion size={50} />;
-            case 'SiJirasoftware': return <SiJirasoftware size={50} />;
+            case 'SiPostman': return <SiPostman size={50} />;
+            case 'SiTypescript': return <SiTypescript size={50} />;
+            case 'SiVisualstudio': return <SiVisualstudio size={50} />;
+            case 'SiVisualstudiocode': return <SiVisualstudiocode size={50} />;
             default: return null;
         };
     };
