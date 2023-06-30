@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Skills.css';
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJs, FaUnity, FaGithub, FaGit, FaSlack, FaFigma } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJs, FaUnity, FaGithub, FaGit, FaSlack, FaFigma, FaAngular, FaSass } from 'react-icons/fa';
 import { TbBrandTailwind, TbBrandCSharp, TbSql } from 'react-icons/tb';
-import { SiTypescript, SiDotnet, SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiNotion, SiJirasoftware, SiAzuredevops } from 'react-icons/si';
+import { SiTypescript, SiDotnet, SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiNotion, SiJirasoftware, SiAzuredevops, SiBulma, SiVisualstudio } from 'react-icons/si';
 import iconJson from './Skills.json';
 
 export default function Skills() {
@@ -21,6 +21,7 @@ export default function Skills() {
             case 'FaHtml5': return <FaHtml5 size={50} />;
             case 'FaJs': return <FaJs size={50} />;
             case 'FaReact': return <FaReact size={50} />;
+            case 'FaSass' : return <FaSass size={50} />;
             case 'FaSlack': return <FaSlack size={50} />;
             case 'FaUnity': return <FaUnity size={50} />;
             case 'TbBrandCSharp': return <TbBrandCSharp size={50} />;

@@ -4,7 +4,7 @@ import useTypeWriter from 'react-typewriter-hook';
 
 export default function Landing() {
 
-    const text = useTypeWriter(`An upstart junior web developer`, { delay: 30 })
+    const text = useTypeWriter(`Junior Web Developer`, { delay: 30 })
 
     return (
         <div>

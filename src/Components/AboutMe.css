@@ -2,7 +2,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: #5d5d5d;
-    height: 90vh;
+    min-height: 90vh;
     border-radius: 30px;
     padding: calc(10px + 3vmin);
 }

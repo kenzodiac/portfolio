@@ -35,6 +35,12 @@
             "Icon" : "TbSql",
             "Alt" : "SQL icon",
             "Class" : "icon-boarder"
+        },
+        {
+            "Name" : "SASS",
+            "Icon" : "FaSass",
+            "Alt" : "SASS Icon",
+            "Class" : "icon-boarder"
         }
     ],
 
@@ -103,7 +109,7 @@
             "Class" : "icon-boarder"
         },
         {
-            "Name" : "Visual Studio Code",
+            "Name" : "VS Code",
             "Icon" : "SiVisualstudiocode",
             "Alt" : "VSCode icon",
             "Class" : "icon-boarder"
