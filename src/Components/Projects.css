@@ -22,6 +22,7 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    transition: 0.2s ease-in-out;
 }
     .proj-card:hover{
         border-color: #2be88d;
@@ -41,7 +42,6 @@
 
 .card-title{
     font-size: calc(10px + 1vmin);
-    text-align: center;
     align-self: center;
     font-weight: 800;
     color: #2be88d;

@@ -49,7 +49,7 @@ export default function Skills() {
             </div>
 
             <div>
-                <span className={"skills-section-title"}>Programming Langauges:</span>
+                <span className={"skills-section-title"}>Programming Languages:</span>
             </div>
             <div className={"d-flex justify-content-center flex-wrap mb-4"}>
                 {
@@ -58,7 +58,7 @@ export default function Skills() {
                             const Component = getIconComponent(item.Icon);
                             return (
                                 <div className={'skill-icon'} style={{ marginTop: '6px' }} key={idx}>
-                                    <div className="icon-border" alt={item.Alt} title={item.Name}>{Component}</div>
+                                    <div className={'icon-border'} alt={item.Alt} title={item.Name}>{Component}</div>
                                     <div style={{ position: 'absolute', top: '90px' }}>{item.Name}</div>
                                 </div>
                             );
@@ -77,8 +77,8 @@ export default function Skills() {
                             const Component = getIconComponent(item.Icon);
                             return (
                                 <div className={'skill-icon'} style={{ marginTop: '6px' }} key={idx}>
-                                    <div className="icon-border" alt={item.Alt} title={item.Name}>{Component}</div>
-                                    <div style={{ position: 'absolute', top: '90px' }}>{item.Name}</div>
+                                    <div className={'icon-border'} alt={item.Alt} title={item.Name}>{Component}</div>
+                                    <div style={{ position: 'absolute', top: '90px' }} className={'text-center'}>{item.Name}</div>
                                 </div>
                             );
                         }
@@ -96,7 +96,7 @@ export default function Skills() {
                             const Component = getIconComponent(item.Icon);
                             return (
                                 <div className={'skill-icon'} style={{ marginTop: '6px' }} key={idx}>
-                                    <div className="icon-border" alt={item.Alt} title={item.Name}>{Component}</div>
+                                    <div className={'icon-border'} alt={item.Alt} title={item.Name}>{Component}</div>
                                     <div style={{ position: 'absolute', top: '90px' }}>{item.Name}</div>
                                 </div>
                             );

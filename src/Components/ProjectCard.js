@@ -37,8 +37,8 @@ export default function ProjectCard(props) {
                     <img src={props.image} alt="" title="" style={{ width: '90%', height: 'auto', borderRadius: '20px', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)'}} />
                 </a>
             </div>
-            <div>
-                <span className={"card-title"}>{props.title}</span>
+            <div className="text-center">
+                <span className={"card-title text-center"}>{props.title}</span>
             </div>
             <div className={"my-2"} style={{width: '90%'}}>
                 <span className={"card-text"}>{props.description}</span>
