@@ -28,7 +28,7 @@ export default function Projects() {
 
         <ProjectCard title={'Rock Paper Scissors Lizard Spock'} image={rpsls} description={`This is a desktop app that lets you play the game "Rock Paper Scissors Lizard Spock" - which is the classic Rock Paper Scissors with added dimensions. You can either play vs the CPU or a 2nd player.`} link={'https://kenzodiac.github.io/FujimuraKRockPaperScissorsLizardSpock/'} logos={['html5', 'css', 'js', 'bootstrap']} />
 
-        <ProjectCard title={'All For One'} image={all4one} description={`This is a desktop app that is a rebuild of a previous learning assignment in react. It was practice for a lot of logic in JavaScript, as well as building an API.`} link={'https://kenall4one.azurewebsites.net/'} logos={['html5', 'css', 'js', 'react', 'bootstrap', 'c#']} />
+        <ProjectCard title={'All For One'} image={all4one} description={`This is a desktop app that is a rebuild of a previous learning assignment in react. It was practice for a lot of logic in JavaScript, as well as building an API.`} link={'https://allforone.kensf.dev/'} logos={['html5', 'css', 'js', 'react', 'bootstrap', 'c#']} />
 
         <ProjectCard title={'Deal or No Deal'} image={dond} description={`This is a desktop app built in Unity that mimics the classic gameshow "Deal or No Deal"`} link={'https://simmer.io/@kensf/dnods9'} logos={['c#', 'unity']} />
 
