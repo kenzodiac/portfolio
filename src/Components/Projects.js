@@ -10,6 +10,7 @@ import theweather from '../Assets/Images/theweather.jpg';
 import rpsls from '../Assets/Images/rpsls.jpg';
 import dond from '../Assets/Images/dond.jpg';
 import gameswap from '../Assets/Images/gameswap.png';
+import socdashboard from '../Assets/Images/socdashboard.png'
 
 export default function Projects() {
   return (
@@ -23,6 +24,8 @@ export default function Projects() {
         <ProjectCard title={'Gameswap'} image={gameswap} description={'This is a social media/networking app oriented around matching and connecting gamers who want to trade games with each other.'} link={'https://gameswap.azurewebsites.net/'} logos={['html5', 'css', 'typescript', 'bootstrap', 'c#', 'react']} />
 
         <ProjectCard title={'Pokemon Bounty System'} image={pokebounty} description={`This is a desktop app that lets you search through ALL current pokemon, gets information about them, and lets you set a 'bounty' on them to remember your favorites.`} link={'https://pokemonget.azurewebsites.net/src/'} logos={['html5', 'css', 'js', 'tailwind']} />
+
+        <ProjectCard title={'Social Media Dashboard'} image={socdashboard} description={`This is a social media dashboard, built off of a premade prototype to practice front end React development.`} link={'https://socdashboard.kensf.dev/'} logos={['html5', 'css', 'js', 'bootstrap', 'react']}/>
 
         <ProjectCard title={'the.weather'} image={theweather} description={`This is a desktop app that pulls in daily and weekly weather information from all across the world via a weather API, and displays the information based on either the user's current location, or a location of their choosing. It also lets users save locations for easy retrieval.`} link={'https://kensfweatherapp.azurewebsites.net/'} logos={['html5', 'css', 'js', 'bootstrap']} />
 
